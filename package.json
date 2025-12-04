@@ -31,7 +31,8 @@
     "type-check": "tsc --noEmit",
     "check:turbo": "bun turbo lint type-check",
     "format": "prettier --write src",
-    "prepare": "husky"
+    "prepare": "husky",
+    "export": "next build && next export"
   },
   "dependencies": {
     "framer-motion": "11.11.10",
